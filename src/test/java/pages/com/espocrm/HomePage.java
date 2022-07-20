@@ -13,6 +13,8 @@ public class HomePage {
     }
     @FindBy(id = "btn-login")
     public WebElement logInButton;
+    @FindBy(xpath = "//a[@id='001]")
+    public WebElement dropDown;
     @FindBy(xpath = "(//ul[@class='nav navbar-nav tabs']/li/a)[position()<last()] ")
     public List<WebElement> labels;
     @FindBy(xpath = "//a[@class='btn btn-default btn-xs-wide action']")
