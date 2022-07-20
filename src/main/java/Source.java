@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Source {
+public class Source {
+    public static void main(String[] args) {
+        System.out.println("Hi Form Eldar");
+    }
 }
